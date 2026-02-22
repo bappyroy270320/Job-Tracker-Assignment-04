@@ -6,29 +6,246 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application</title>
 
-    <!-- tailwind & daisy ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="min-h-screen max-w-[1110px] bg-red-200 mx-auto">
-    <section class="w-12/12 mx-auto py-10 space-y-5">
-        <h2 class="text-3xl font-bold">Job Application Tracker</h2>
+<body class="body-color">
+    <section class="width">
+        <div>
+            <h2 class="header">Job Application Tracker</h2>
+            
+        </div>
+        <div class="card-main">
+            <div class="card">
+                <h5 class="card-header">Total</h5>
+                <h4 class="card-number-one">8</h4>
+            </div>
+            <div class="card">
+                <h5 class="card-header">Interview</h5>
+                <h4 class="card-number-two">0</h4>
+            </div>
+            <div class="card">
+                <h5 class="card-header">Rejected</h5>
+                <h4 class="card-number-three">0</h4>
+            </div>
+            
+        </div>
+        
+        <hr>
+    </section>
+    
+    <section class="width-two">
+        <div class="header-two-container">
+            <h2 class="header-two">Available Jobs</h2>
+            <h4 class="header-two-number">8 jobs</h4>
 
-        <!-- <div class="buttons grid grid-cols-3 gap-3">
-            <button class="btn "></button>
+        </div>
 
-        </div> -->
+        <div class="button-container">
+            <button class="btn-one"><a href="#">All</a></button>
+            <button class="btn-two"><a href="#">Interview</a></button>
+            <button class="btn-three"><a href="#">Rejected</a></button>
 
+        </div>
+
+
+    </section>
+
+    <section class="width-two big-card one">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">Mobile First Corp</h1>
+                <h2 class="card-h2">React Native Developer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">Remote • Full-time • $130,000 - $175,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card two">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">WebFlow Agency</h1>
+                <h2 class="card-h2">Web Designer & Developer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">Los Angeles, CA • Part-time • $80,000 - $120,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card three">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">DataViz Solutions</h1>
+                <h2 class="card-h2">Data Visualization Specialist</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">Boston, MA • Full-time • $125,000 - $165,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Transform complex data into compelling visualizations. Required skills: D3.js, React, and strong analytical thinking.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card four">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">CloudFirst Inc</h1>
+                <h2 class="card-h2">Backend Developer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">Seattle, WA • Full-time • $140,000 - $190,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Design and maintain scalable backend systems using Python and AWS. Work with modern DevOps practices and cloud infrastructure.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card five">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">Innovation Labs</h1>
+                <h2 class="card-h2">UI/UX Engineer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">Austin, TX • Full-time • $110,000 - $150,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card six">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">MegaCorp Solutions</h1>
+                <h2 class="card-h2">JavaScript Developer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">New York, NY • Full-time • $130,000 - $170,00</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card seven">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">StartupXYZ</h1>
+                <h2 class="card-h2">Full Stack Engineer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">Remote • Full-time • $120,000 - $160,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">Join our fast-growing startup and work on our core platform. Experience with Node.js and React required. Great benefits and equity package included.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
+    </section>
+
+    <section class="width-two big-card eight">
+        <div class="flex">
+            <div class="">
+                <h1 class="card-h1">TechCorp Industries</h1>
+                <h2 class="card-h2">Senior Frontend Developer</h2>
+            </div>
+            <div>
+                <img src="Trash.png" alt="">
+            </div>
+        </div>
+        <div>
+            <h2 class="card-h2">San Francisco, CA • Full-time • $130,000 - $175,000</h2>
+            <button class="btn-four"><a href="#">Not Applied</a></button>
+            <h4 class="card-p">We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.</h4>
+            
+        </div>
+        <div class="flex-two">
+            <button class="btn-five"><a href="#">interview</a></button>
+            <button class="btn-six"><a href="#">Rejected</a></button>
+
+            
+        </div>
     </section>
 
     
