@@ -111,21 +111,35 @@ hr{
     margin-bottom: 16px;
 }
 
-.btn-one a{
+/* .btn-one a{
     text-decoration: none;
-    color: #FFFFFF;
-}
+    } */
 .btn-one{
     font-size: 12px;
+    color: #64748B;
     border: none;
     padding: 10px 32px 10px 32px;
-    background-color: #3B82F6;
+    background-color: #ffffff;
     border-radius: 4px;
-
 }
-.btn-two a{
-    text-decoration: none;
-    color: #64748B;
+/* .btn-one a:hover{
+    color: #FFFFFF;
+    
+} */
+.btn-one:hover{
+    background-color: #3B82F6;
+    color: #FFFFFF;
+      
+}
+.btn-two:hover{
+    background-color: #3B82F6;
+    color: #FFFFFF;
+      
+}
+.btn-three:hover{
+    background-color: #3B82F6;
+    color: #FFFFFF;
+      
 }
 
 .btn-two{
@@ -134,14 +148,13 @@ hr{
     padding: 10px 32px 10px 32px;
     background-color: #ffffff;
     border-radius: 4px;
+    color: #64748B;
 
 }
-.btn-three a{
-    text-decoration: none;
-    color: #64748B;
-}
+
 .btn-three{
     font-size: 12px;
+    color: #64748B;
     border: none;
     padding: 10px 32px 10px 32px;
     background-color: #ffffff;
@@ -179,12 +192,10 @@ hr{
 
 }
 
-.btn-four a{
-    text-decoration: none;
-    color: #002C5C;
-}
+
 .btn-four{
     font-size: 14px;
+    color: #002C5C;
     font-weight: 500;
     border: none;
     line-height: 20px;
@@ -192,6 +203,11 @@ hr{
     background-color: #EEF4FF;
     border-radius: 4px;
     text-transform: uppercase;
+}
+
+.btn-four:hover{
+    background-color: #002C5C;
+    color: #EEF4FF;
 
 }
 
@@ -213,28 +229,28 @@ hr{
     
 }
 
-.btn-five a{
-    text-decoration: none;
-    color: #10B981;
-}
+
 .btn-five{
     font-size: 14px;
+    color: #10B981;
     font-weight: 500;
     line-height: 20px;
     padding: 8px 12px 8px 12px;
     background-color: #ffffff;
     border: 1px solid #10B981;
     border-radius: 4px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 
 }
-.btn-six a{
-    text-decoration: none;
-    color: #EF4444;
+
+.btn-five:hover{
+    background-color: #10B981;
+    color: #FFFFFF;
 }
+
 .btn-six{
     font-size: 14px;
+    color: #EF4444;
     font-weight: 500;
     line-height: 20px;
     padding: 8px 12px 8px 12px;
@@ -243,12 +259,17 @@ hr{
     border-radius: 4px;
     text-transform: uppercase;
     
-
+}
+.btn-six:hover{
+    color: #FFFFFF;
+    background-color: #EF4444;
 }
 
 .eight{
     margin-bottom: 60px;
 }
+
+
 
 
 
